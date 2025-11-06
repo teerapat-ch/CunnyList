@@ -7,7 +7,6 @@ const PersonList = ({ data, deleteCunny }) => {
 
   return (
     <div className="PersonList">
-      <h2> Cunny list</h2>
       <button id="show-btn" onClick={() => setShow(!show)}>{show ? "Hide" : "Show"}</button>
       <ul>
         <li>
