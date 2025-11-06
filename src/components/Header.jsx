@@ -15,7 +15,7 @@ const Header = ({ theme, setTheme }) => {
     <div className="Header">
       <h1>React type shit</h1>
       <span id="theme-btn" onClick={toggleTheme}>
-        {theme == "light" ? <MdSunny size={40} /> : <IoMoon size={40} />}
+        {theme == "light" ? <IoMoon size={40} /> : <MdSunny size={40} />}
       </span>
     </div>
   );
