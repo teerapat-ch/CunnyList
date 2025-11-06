@@ -1,0 +1,20 @@
+.AddCunny {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+#submit-btn {
+  background-color: rgb(10, 146, 10);
+  width: 80px;
+  margin-left: 10px;
+}
+
+#submit-btn:disabled {
+  background-color: rgb(190, 190, 190);
+}
+
+.label {
+  margin: 5px;
+}

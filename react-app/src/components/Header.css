@@ -1,0 +1,17 @@
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    border-bottom: 1px solid #c9c9c9;
+}
+
+#theme-btn {
+    cursor: pointer;
+    height: 40px;
+    width: 60px;
+}

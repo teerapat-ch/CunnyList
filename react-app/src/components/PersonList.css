@@ -1,0 +1,18 @@
+.PersonList {
+  padding-top: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#show-btn {
+  margin: 10px;
+}
